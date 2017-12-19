@@ -19,8 +19,8 @@
  
  */
 // Answer question 6 below
-let targetDistance : Double
-var currentDistanceRun :Double
+let targetDistance : Double = 10000
+var currentDistanceRun : Double = 1400
 if currentDistanceRun < targetDistance * 0.15
 {
     print("Great start, keep it up!")
