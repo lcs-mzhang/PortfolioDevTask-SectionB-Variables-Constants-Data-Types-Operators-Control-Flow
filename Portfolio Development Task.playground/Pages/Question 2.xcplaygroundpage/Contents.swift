@@ -20,13 +20,13 @@
  Then, use `print()` statements to briefly explain why you chose to use a variable or a constant for each piece of information above.
  
  */
-// Answer question 2  below
+// Answer question 2 below
 let dateOfMeasurement : String
 let timeOfMeasurement : String
 var currentSnowfall : Double
 var totalSnowfall : Double
 
-print("The time and date of this measurement will not change, so I chose to use a constant. The current amount of snow and total amount of snow will both change, so I made them variables.")
+print("The time and date of this measurement will not change within each recording, so I chose to use a constant. The current amount of snow and total amount of snow will both change, so I made them variables.")
 /*:
  ## Now share your understanding
  
