@@ -19,8 +19,28 @@
  
  */
 // Answer question 6 below
-
-
+let targetDistance : Double
+var currentDistanceRun :Double
+if currentDistanceRun < targetDistance * 0.15
+{
+    print("Great start, keep it up!")
+}
+else if currentDistanceRun > targetDistance * 0.45 && currentDistanceRun < targetDistance * 0.5
+{
+    print("You're almost at halfway!")
+}
+else if currentDistanceRun == targetDistance * 0.5
+{
+    print("Halfway there!")
+}
+else if currentDistanceRun > targetDistance * 0.88 && currentDistanceRun < targetDistance
+{
+    print("Nearly Done!")
+}
+else if currentDistanceRun > targetDistance || currentDistanceRun == targetDistance
+{
+    print("GREAT JOB! You're finished the run.")
+}
 /*:
  ## Now share your understanding
  
