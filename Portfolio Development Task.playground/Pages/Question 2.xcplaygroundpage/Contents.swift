@@ -20,7 +20,7 @@
  Then, use `print()` statements to briefly explain why you chose to use a variable or a constant for each piece of information above.
  
  */
-// Answer question 2 below
+// Answer question 2  below
 let dateOfMeasurement : String
 let timeOfMeasurement : String
 var currentSnowfall : Double

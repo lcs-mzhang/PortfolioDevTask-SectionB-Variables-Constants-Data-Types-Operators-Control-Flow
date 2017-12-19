@@ -21,7 +21,17 @@
  
  */
 // Answer question 3 below
+let hairDonationAmount : Double = 55.75
+print("I chose to use a double because the donation for each head shaved is not a whole number, but a decimal.")
+let runTrainingDonationAmount : Double = 15.35
+print("I chose to use a double because the donation for hour spent running is not a whole number, but a decimal.")
 
+var headShavedCount : Int = 12
+print("I used an integer because the amount of shaved heads will always be whole numbers.")
+var runTrainingCount : Int = 73
+print("I used an integer because the amount of students who participated will always be whole numbers.")
+
+var totalDonationAmount = (hairDonationAmount*Double(headShavedCount))+(runTrainingDonationAmount*Double(runTrainingCount))
 /*:
  ## Now share your understanding
  
