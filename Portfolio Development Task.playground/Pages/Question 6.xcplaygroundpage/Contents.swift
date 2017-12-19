@@ -20,12 +20,12 @@
  */
 // Answer question 6 below
 let targetDistance : Double = 10000
-var currentDistanceRun : Double = 1400
+var currentDistanceRun : Double = 10000
 if currentDistanceRun < targetDistance * 0.15
 {
     print("Great start, keep it up!")
 }
-else if currentDistanceRun > targetDistance * 0.45 && currentDistanceRun < targetDistance * 0.5
+else if currentDistanceRun >= targetDistance * 0.45 && currentDistanceRun < targetDistance * 0.5
 {
     print("You're almost at halfway!")
 }
@@ -37,7 +37,7 @@ else if currentDistanceRun > targetDistance * 0.88 && currentDistanceRun < targe
 {
     print("Nearly Done!")
 }
-else if currentDistanceRun > targetDistance || currentDistanceRun == targetDistance
+else if currentDistanceRun >= targetDistance
 {
     print("GREAT JOB! You're finished the run.")
 }
